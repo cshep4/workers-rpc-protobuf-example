@@ -1,0 +1,21 @@
+{
+  "name": "rpc-protobuf-client",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240620.0",
+    "typescript": "^5.4.5",
+    "wrangler": "^3.60.3"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "^2.1.0",
+	"@cshep4/proto-registry": "^1.1.1"
+  }
+}
